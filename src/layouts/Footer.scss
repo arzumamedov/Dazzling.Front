@@ -1,0 +1,160 @@
+footer {
+    width: 100%;
+    height: 400px;
+    background-color: #313233;
+    .footerTop {
+        width: 100%;
+        height: 80%;
+        background-color: #313233;
+        .leftRight {
+            width: 75%;
+            height: 100%;
+            // background-color: yellow;
+            display: flex;
+            align-items: center;
+            margin: auto;
+            justify-content: space-between;
+            .footerTopRight {
+                width: 260px;
+                height: 250px;
+                // background-color: #1f1f1f;
+                display: flex;
+                flex-direction: column;
+                gap: 15px;
+                p {
+                    color: white;
+                    font-family:
+                        system-ui,
+                        -apple-system,
+                        BlinkMacSystemFont,
+                        "Segoe UI",
+                        Roboto,
+                        Oxygen,
+                        Ubuntu,
+                        Cantarell,
+                        "Open Sans",
+                        "Helvetica Neue",
+                        sans-serif;
+                    font-size: 12px;
+                    color: rgb(166, 166, 166);
+                }
+                img {
+                    object-fit: cover;
+                }
+            }
+            .footerTopLeft {
+                width: 300px;
+                height: 290px;
+                // background-color: aqua;
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+                h4 {
+                    font-family:
+                        system-ui,
+                        -apple-system,
+                        BlinkMacSystemFont,
+                        "Segoe UI",
+                        Roboto,
+                        Oxygen,
+                        Ubuntu,
+                        Cantarell,
+                        "Open Sans",
+                        "Helvetica Neue",
+                        sans-serif;
+                    color: rgb(166, 166, 166);
+                    font-weight: 500;
+                }
+                p {
+                    font-family:
+                        system-ui,
+                        -apple-system,
+                        BlinkMacSystemFont,
+                        "Segoe UI",
+                        Roboto,
+                        Oxygen,
+                        Ubuntu,
+                        Cantarell,
+                        "Open Sans",
+                        "Helvetica Neue",
+                        sans-serif;
+                    font-size: 12px;
+                    color: rgb(166, 166, 166);
+                }
+                .home {
+                    // width: 100%;
+                    height: 30px;
+                    border-bottom: 1px solid gray;
+                }
+                .gallery {
+                    height: 30px;
+                    border-bottom: 1px solid gray;
+                }
+                .shortcodes {
+                    height: 30px;
+                    border-bottom: 1px solid gray;
+                }
+                .about {
+                    height: 30px;
+                    border-bottom: 1px solid gray;
+                }
+                .languages {
+                    height: 30px;
+                    border-bottom: 1px solid gray;
+                }
+            }
+        }
+    }
+    .footerBottom {
+        width: 100%;
+        height: 20%;
+        background-color: #1f1f1f;
+        .bottomText {
+            width: 75%;
+            height: 100%;
+            // background-color: green;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: auto;
+            ul {
+                height: 100%;
+                display: flex;
+                align-items: center;
+                gap: 20px;
+                li {
+                    font-family:
+                        system-ui,
+                        -apple-system,
+                        BlinkMacSystemFont,
+                        "Segoe UI",
+                        Roboto,
+                        Oxygen,
+                        Ubuntu,
+                        Cantarell,
+                        "Open Sans",
+                        "Helvetica Neue",
+                        sans-serif;
+                    color: rgb(166, 166, 166);
+                    font-size: 12px;
+                }
+            }
+            p {
+                font-family:
+                    system-ui,
+                    -apple-system,
+                    BlinkMacSystemFont,
+                    "Segoe UI",
+                    Roboto,
+                    Oxygen,
+                    Ubuntu,
+                    Cantarell,
+                    "Open Sans",
+                    "Helvetica Neue",
+                    sans-serif;
+                color: rgb(166, 166, 166);
+                font-size: 12px;
+            }
+        }
+    }
+}
